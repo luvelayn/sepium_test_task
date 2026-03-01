@@ -1,63 +1,63 @@
 :root {
-    /* Переменные Fancyapps */
-    --f-arrow-pos: 0.9375rem;
-    --f-arrow-bg: rgba(255, 255, 255, 0.5);
-    --f-arrow-hover-bg: rgba(255, 255, 255, 0.8);
-    --f-arrow-color: rgba(70, 70, 70, 1);
-    --f-arrow-width: 2.6875rem;
-    --f-arrow-height: 2.6875rem;
-    --f-arrow-svg-width: 1.1875rem;
-    --f-arrow-svg-height: 1.1875rem;
-    --f-arrow-border-radius: 50%;
-    --f-arrow-svg-stroke-width: 0;
+  /* Переменные Fancyapps */
+  --f-arrow-pos: 0.9375rem;
+  --f-arrow-bg: rgba(255, 255, 255, 0.5);
+  --f-arrow-hover-bg: rgba(255, 255, 255, 0.8);
+  --f-arrow-color: rgba(70, 70, 70, 1);
+  --f-arrow-width: 2.6875rem;
+  --f-arrow-height: 2.6875rem;
+  --f-arrow-svg-width: 1.1875rem;
+  --f-arrow-svg-height: 1.1875rem;
+  --f-arrow-border-radius: 50%;
+  --f-arrow-svg-stroke-width: 0;
 
-    --f-carousel-dots-gap: 0.3125rem;
-    --f-carousel-dots-width: 100%;
-    --f-carousel-dot-width: 100%;
-    --f-carousel-dot-height: 0.125rem;
-    --f-carousel-dot-border-radius: 0;
-    --f-carousel-dot-bg: #E6E6E6;
-    --f-carousel-dot-hover-bg: #FF5C00;
-    --f-carousel-dot-selected-bg: #FF5C00;
-    --f-carousel-dot-opacity: 1;
+  --f-carousel-dots-gap: 0.3125rem;
+  --f-carousel-dots-width: 100%;
+  --f-carousel-dot-width: 100%;
+  --f-carousel-dot-height: 0.125rem;
+  --f-carousel-dot-border-radius: 0;
+  --f-carousel-dot-bg: #e6e6e6;
+  --f-carousel-dot-hover-bg: #ff5c00;
+  --f-carousel-dot-selected-bg: #ff5c00;
+  --f-carousel-dot-opacity: 1;
 
-    /* Цвета */
-    --color-primary: #32312F;
-    --color-accent: #FF5C00;
-    --color-accent-hover: #E65300;
-    --color-caption: #656565;
-    --color-bg: #F6F6F6;
-    --color-bg-hover: #E6E6E6;
-    --color-border: #E6E6E6;
-    --color-icon-default: #A1A5AD;
-    --overlay-light: rgba(255, 255, 255, 0.5);
-    --overlay-light-hover: rgba(255, 255, 255, 0.8);
-    --overlay-dark: rgba(0, 0, 0, 0.5);
+  /* Цвета */
+  --color-primary: #32312f;
+  --color-accent: #ff5c00;
+  --color-accent-hover: #e65300;
+  --color-caption: #656565;
+  --color-bg: #f6f6f6;
+  --color-bg-hover: #e6e6e6;
+  --color-border: #e6e6e6;
+  --color-icon-default: #a1a5ad;
+  --overlay-light: rgba(255, 255, 255, 0.5);
+  --overlay-light-hover: rgba(255, 255, 255, 0.8);
+  --overlay-dark: rgba(0, 0, 0, 0.5);
 
-    /* Размеры и отступы */
-    --spacing-xs: 0.3125rem;
-    --spacing-sm: 0.4375rem;
-    --spacing-md: 0.875rem;
-    --spacing-lg: 1.25rem;
-    --spacing-xl: 2rem;
-    --spacing-vertical-item: 0.375rem;
-    --spacing-horizontal-item: 0.75rem;
+  /* Размеры и отступы */
+  --spacing-xs: 0.3125rem;
+  --spacing-sm: 0.4375rem;
+  --spacing-md: 0.875rem;
+  --spacing-lg: 1.25rem;
+  --spacing-xl: 2rem;
+  --spacing-vertical-item: 0.375rem;
+  --spacing-horizontal-item: 0.75rem;
 
-    /* Радиусы */
-    --border-radius-sm: 0.5rem;
-    --border-radius-md: 0.875rem;
-    --border-radius-lg: 1.125rem;
+  /* Радиусы */
+  --border-radius-sm: 0.5rem;
+  --border-radius-md: 0.875rem;
+  --border-radius-lg: 1.125rem;
 
-    /* Размеры шрифта */
-    --font-size-xs: 0.75rem;
-    --font-size-base: 0.875rem;
-    --font-size-lg: 1.375rem;
-    --font-size-button: 0.9375rem;
+  /* Размеры шрифта */
+  --font-size-xs: 0.75rem;
+  --font-size-base: 0.875rem;
+  --font-size-lg: 1.375rem;
+  --font-size-button: 0.9375rem;
 
-    /* Высоты */
-    --slider-height: 21.1875rem;
+  /* Высоты */
+  --slider-height: 21.1875rem;
 
-    /* Transition */
-    --transition-fast: 0.2s ease;
-    --transition-normal: 0.3s ease;
+  /* Transition */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
 }
