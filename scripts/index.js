@@ -1,4 +1,4 @@
-import { createCard, likeCard } from './card';
+import { createCard, likeCard } from './card/index.js';
 import { getCardsApi, likeCardApi, unlikeCardApi } from './fakeApi.js';
 
 const cardsList = document.querySelector('.products__list');
