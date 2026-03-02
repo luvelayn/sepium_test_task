@@ -4,8 +4,9 @@
 
 ## Стек
 
-- HTML, CSS, JavaScript (ES Modules)
-- [@fancyapps/ui](https://fancyapps.com/docs/ui) — слайдер и модальное окно (Carousel, Fancybox)
+- HTML, CSS, JavaScript
+- Fancyapps — слайдер и модальное окно (Carousel, Fancybox)
+- ESLint + Prettier
 
 ## Запуск
 
@@ -20,17 +21,25 @@ npx serve .
 
 ## Структура проекта
 ```
-├── fonts/          # Шрифты
-├── images/         # Изображения и SVG-спрайт
+├── common.blocks/          # Блоки проекта
+│   ├── card/               # Блок карточки товара
+│   │   ├── card.css
+│   │   └── card.js
+│   └── products/           # Блок списка товаров
+│       └── products.css
+├── library.blocks/         # Блоки сторонних библиотек
+│   └── f-carousel/        
+│       ├── f-carousel.css
+│       └── f-carousel.js
 ├── scripts/
-│   ├── card/       # Логика карточки
-│   ├── fakeApi.js  # Эмуляция API
-│   └── index.js    # Точка входа
+│   └── fakeApi.js          # Эмуляция API
 ├── styles/
-│   ├── variables.css
-│   ├── globals.css
-│   └── style.css
-└── index.html
+│   ├── variables.css       # CSS-переменные
+│   └── globals.css         # Глобальные стили
+├── fonts/                  # Шрифты
+├── images/                 # Изображения и SVG-спрайт
+├── index.html
+└── index.js                # Точка входа
 ```
 
 ## Реализовано
@@ -42,4 +51,3 @@ npx serve .
 - Переключение модификации материала
 - Лайк с обращением к API
 - Клик по карточке открывает страницу товара
-- Используются sprite.svg, rem
