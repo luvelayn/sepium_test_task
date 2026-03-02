@@ -1,0 +1,21 @@
+.products {
+  padding: 6.25rem 0;
+}
+
+.products__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+}
+
+@media (max-width: 48rem) {
+  .products {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .products__list {
+    gap: 0.625rem;
+    padding: 0 0.625rem;
+  }
+}

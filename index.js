@@ -1,5 +1,5 @@
-import { createCard, likeCard } from './card/index.js';
-import { getCardsApi, likeCardApi, unlikeCardApi } from './fakeApi.js';
+import { createCard, likeCard } from './common.blocks/card/card.js';
+import { getCardsApi, likeCardApi, unlikeCardApi } from './scripts/fakeApi.js';
 
 const cardsList = document.querySelector('.products__list');
 

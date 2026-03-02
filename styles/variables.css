@@ -1,26 +1,4 @@
 :root {
-  /* Переменные Fancyapps */
-  --f-arrow-pos: 0.9375rem;
-  --f-arrow-bg: rgba(255, 255, 255, 0.5);
-  --f-arrow-hover-bg: rgba(255, 255, 255, 0.8);
-  --f-arrow-color: rgba(70, 70, 70, 1);
-  --f-arrow-width: 2.6875rem;
-  --f-arrow-height: 2.6875rem;
-  --f-arrow-svg-width: 1.1875rem;
-  --f-arrow-svg-height: 1.1875rem;
-  --f-arrow-border-radius: 50%;
-  --f-arrow-svg-stroke-width: 0;
-
-  --f-carousel-dots-gap: 0.3125rem;
-  --f-carousel-dots-width: 100%;
-  --f-carousel-dot-width: 100%;
-  --f-carousel-dot-height: 0.125rem;
-  --f-carousel-dot-border-radius: 0;
-  --f-carousel-dot-bg: #e6e6e6;
-  --f-carousel-dot-hover-bg: #ff5c00;
-  --f-carousel-dot-selected-bg: #ff5c00;
-  --f-carousel-dot-opacity: 1;
-
   /* Цвета */
   --color-primary: #32312f;
   --color-accent: #ff5c00;
@@ -56,6 +34,7 @@
 
   /* Высоты */
   --slider-height: 21.1875rem;
+  --slider-height-mb: 14rem;
 
   /* Transition */
   --transition-fast: 0.2s ease;
